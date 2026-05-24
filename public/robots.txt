@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://cda-pro-landing-844o.vercel.app/sitemap.xml
