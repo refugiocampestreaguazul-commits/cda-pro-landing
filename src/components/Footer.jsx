@@ -3,9 +3,9 @@ import {
   Phone,
   Mail,
   MapPin,
-  Instagram,
-  Facebook,
-  Linkedin,
+  InstagramIcon,
+  FacebookIcon,
+  LinkedinIcon,
 } from "lucide-react";
 
 export default function Footer() {
@@ -148,7 +148,7 @@ export default function Footer() {
               className="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-xl transition hover:border-cyan-400/40"
             >
 
-              <Instagram className="h-6 w-6 text-cyan-400" />
+              <InstagramIcon className="h-6 w-6 text-cyan-400" />
 
             </motion.button>
 
@@ -157,7 +157,7 @@ export default function Footer() {
               className="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-xl transition hover:border-cyan-400/40"
             >
 
-              <Facebook className="h-6 w-6 text-cyan-400" />
+              <FacebookIcon className="h-6 w-6 text-cyan-400" />
 
             </motion.button>
 
@@ -166,7 +166,7 @@ export default function Footer() {
               className="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-xl transition hover:border-cyan-400/40"
             >
 
-              <Linkedin className="h-6 w-6 text-cyan-400" />
+              <LinkedinIcon className="h-6 w-6 text-cyan-400" />
 
             </motion.button>
 
