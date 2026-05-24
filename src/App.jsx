@@ -1,4 +1,11 @@
 import { useState } from "react";
+import Hero from "./components/Hero";
+import Pricing from "./components/Pricing";
+import BeforeAfter from "./components/BeforeAfter";
+import Testimonials from "./components/Testimonials";
+import FAQ from "./components/FAQ";
+import FinalCTA from "./components/FinalCTA";
+import Footer from "./components/Footer";
 import { motion } from "framer-motion";
 import {
   Phone,
@@ -107,84 +114,13 @@ export default function App() {
       </header>
 
       {/* HERO */}
-      <section className="relative z-10 flex min-h-[90vh] flex-col items-center justify-center px-6 text-center">
-
-        <motion.div
-          initial={{ opacity: 0, y: 60 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
-          className="max-w-6xl"
-        >
-
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.3 }}
-            className="mb-6 inline-flex items-center gap-3 rounded-full border border-white/10 bg-white/5 px-6 py-3 backdrop-blur-xl"
-          >
-            <ShieldCheck className="h-5 w-5 text-zinc-300" />
-
-            <span className="text-sm font-semibold text-zinc-300">
-              Plataforma Inteligente para Centros CDA
-            </span>
-          </motion.div>
-
-          <h2 className="text-6xl font-black leading-tight md:text-8xl">
-
-            Transforma Digitalmente
-<span className="block bg-gradient-to-r from-white via-zinc-300 to-zinc-500 bg-clip-text text-transparent">
-  Tu Centro CDA
-</span>
-            <span className="block bg-gradient-to-r from-white to-zinc-500 bg-clip-text text-transparent">
-              Centro CDA
-            </span>
-
-          </h2>
-
-          <p className="mx-auto mt-10 max-w-3xl text-xl leading-relaxed text-zinc-400 md:text-2xl">
-
-            Gestiona clientes, citas, WhatsApp y seguimiento
-            desde una plataforma moderna inspirada en Tesla y Apple.
-
-          </p>
-
-          {/* BUTTONS */}
-          <div className="mt-14 flex flex-wrap items-center justify-center gap-6">
-
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="flex items-center gap-3 rounded-2xl bg-white px-10 py-5 text-lg font-bold text-black shadow-[0_0_50px_rgba(255,255,255,0.15)]"
-            >
-              Ver Demo
-              <ArrowRight className="h-5 w-5" />
-            </motion.button>
-
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="rounded-2xl border border-white/10 bg-white/5 px-10 py-5 text-lg font-bold backdrop-blur-xl transition hover:bg-white/10"
-            >
-              <a
-  href="/apk/cda-pro.apk"
-  download
->
-  <motion.button
-    whileHover={{ scale: 1.05 }}
-    whileTap={{ scale: 0.95 }}
-    className="rounded-2xl border border-white/10 bg-white/5 px-10 py-5 text-lg font-bold backdrop-blur-xl transition hover:bg-white/10"
-  >
-    Descargar APK
-  </motion.button>
-</a>
-            </motion.button>
-
-          </div>
-
-        </motion.div>
-
-      </section>
-
+      <Hero />
+      <BeforeAfter />
+      <Pricing />
+      <Testimonials />
+      <FAQ />
+      <FinalCTA />
+      <Footer />
       {/* STATS */}
       <section className="relative z-10 px-6 pb-24 md:px-20">
 
