@@ -24,12 +24,20 @@ export default function App() {
   const [telefono, setTelefono] = useState("");
   const [email, setEmail] = useState("");
 
-  const openWhatsApp = () => {
-    window.open(
-      "https://wa.me/573105973951",
-      "_blank"
-    );
-  };
+const openWhatsApp = () => {
+
+  if (window.gtag) {
+    window.gtag("event", "click_whatsapp", {
+      event_category: "conversion",
+      event_label: "boton_whatsapp",
+    });
+  }
+
+  window.open(
+    "https://wa.me/573105973951?text=Hola,%20quiero%20información%20sobre%20CDA%20PRO",
+    "_blank"
+  );
+};
 
   const guardarLead = async () => {
 
