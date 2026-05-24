@@ -3,9 +3,6 @@ import {
   Phone,
   Mail,
   MapPin,
-  InstagramIcon,
-  FacebookIcon,
-  LinkedinIcon,
 } from "lucide-react";
 
 export default function Footer() {
@@ -125,55 +122,21 @@ export default function Footer() {
 
         {/* SOCIAL */}
 
-        <div>
+        {/*
+<div>
 
-          <h3 className="mb-6 text-xl font-black">
-            Redes
-          </h3>
+  <h3 className="mb-6 text-xl font-black">
+    Redes
+  </h3>
 
-          <div className="flex gap-4">
+  <div className="flex gap-4">
 
-            <motion.button
-              whileHover={{ scale: 1.1 }}
-              onClick={openWhatsApp}
-              className="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-xl transition hover:border-cyan-400/40"
-            >
+    ...
 
-              <Phone className="h-6 w-6 text-cyan-400" />
+  </div>
 
-            </motion.button>
-
-            <motion.button
-              whileHover={{ scale: 1.1 }}
-              className="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-xl transition hover:border-cyan-400/40"
-            >
-
-              <InstagramIcon className="h-6 w-6 text-cyan-400" />
-
-            </motion.button>
-
-            <motion.button
-              whileHover={{ scale: 1.1 }}
-              className="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-xl transition hover:border-cyan-400/40"
-            >
-
-              <FacebookIcon className="h-6 w-6 text-cyan-400" />
-
-            </motion.button>
-
-            <motion.button
-              whileHover={{ scale: 1.1 }}
-              className="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-xl transition hover:border-cyan-400/40"
-            >
-
-              <LinkedinIcon className="h-6 w-6 text-cyan-400" />
-
-            </motion.button>
-
-          </div>
-
-        </div>
-
+</div>
+*/}
       </div>
 
       {/* BOTTOM */}
