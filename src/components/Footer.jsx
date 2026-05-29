@@ -77,7 +77,9 @@ export default function Footer() {
         </div>
 
         {/* CONTACT */}
-
+<p className="text-zinc-400 mt-4">
+  MAKROSOFT.NET S.A.S. - presenta "CDA PRO Tecnología Inteligente"
+</p>
         <div>
 
           <h3 className="mb-6 text-xl font-black">
@@ -105,14 +107,17 @@ export default function Footer() {
               </span>
 
             </div>
+<div className="flex items-center gap-3">
+    <MapPin className="h-5 w-5 text-cyan-400" />
 
+    <span>
+      Calle 15 # 16-36 2 piso - Duitama, Boyacá - Colombia
+    </span>
+  </div>
             <div className="flex items-center gap-3">
 
               <MapPin className="h-5 w-5 text-cyan-400" />
 
-              <span>
-                Colombia
-              </span>
 
             </div>
 
