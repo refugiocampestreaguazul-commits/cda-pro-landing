@@ -103,7 +103,7 @@ export default function Footer() {
               <Mail className="h-5 w-5 text-cyan-400" />
 
               <span>
-                contacto@cdapro.com
+                informacion.makrosoft@gmail
               </span>
 
             </div>
