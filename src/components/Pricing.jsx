@@ -49,7 +49,7 @@ export default function Pricing() {
           >
 
             <h3 className="text-3xl font-black">
-              Starter
+              Plan Inicio
             </h3>
 
             <p className="mt-4 text-zinc-400">
@@ -59,7 +59,7 @@ export default function Pricing() {
             <div className="mt-10">
 
               <span className="text-6xl font-black">
-                $99K
+                $99.000 COP
               </span>
 
               <span className="ml-2 text-zinc-400">
@@ -107,7 +107,7 @@ export default function Pricing() {
             <div className="mt-10">
 
               <span className="text-6xl font-black text-cyan-400">
-                $199K
+                $199.000 COP
               </span>
 
               <span className="ml-2 text-zinc-300">
